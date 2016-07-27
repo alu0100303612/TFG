@@ -10,3 +10,4 @@ android:
     - extra-google-m2repository
 script:
   gradle build
+  gradle sonarqube
