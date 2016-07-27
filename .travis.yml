@@ -9,4 +9,4 @@ android:
     - extra-android-m2repository
     - extra-google-m2repository
 script:
-  gradle build connectedCheck
+  gradle build
