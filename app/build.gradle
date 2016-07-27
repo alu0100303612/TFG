@@ -22,7 +22,9 @@ android {
         abortOnError false
     }
 }
-
+plugins {
+  id "org.sonarqube" version "2.0.1"
+}
 dependencies {
     compile 'com.android.support:appcompat-v7:24.1.1'
     testCompile 'junit:junit:4.12'
