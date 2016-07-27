@@ -1,0 +1,8 @@
+language: android
+jdk: oraclejdk8
+android:
+  components:
+    - build-tools-23.0.3
+    - android-23
+script:
+  - ./gradlew clean test
